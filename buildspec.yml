@@ -1,0 +1,16 @@
+#Defined the version of buildspec file
+version: 0.2
+
+phases:
+  build:
+    commands:
+    - echo "Building the phase... Zipping the websites"
+ 
+  post_build:
+    commands:
+    - echo "Deploying to S3 Bucket"
+artifacts:
+  files:
+    - '**/*' 
+    # ** : means include directory and it's sub-diretories & /* means include all the files within all the directories
+    
