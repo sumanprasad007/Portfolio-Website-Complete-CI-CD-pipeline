@@ -16,7 +16,7 @@ In this Report, we will examine the benefits of using AWS to create a complete C
  
 
 
-Features of Project: 
+# Features of Project: 
 
 1.	Comprehensive Study: The Report provides a comprehensive analysis of the steps involved in implementing a complete CI/CD pipeline using AWS. The study covers all the key components of a CI/CD pipeline and explains how they can be automated using various AWS services. This allows organizations to understand the end-to-end process of creating a CI/CD pipeline, from code management to deployment.
 
@@ -33,7 +33,7 @@ Features of Project:
 7.	Scalability: While discussing the scalability of utilising Amazon for a CI/CD pipeline, the Report emphasises how simple it is for businesses to extend their infrastructure to match the needs of their software delivery process. With AWS services, businesses can scale their infrastructure up or down as needed without having to make substantial initial hardware expenditures.
 
 
-1.1	EXISTING DEFENCE SYSTEMS AND SOLUTIONS
+## 1.1	EXISTING DEFENCE SYSTEMS AND SOLUTIONS
 Before the adoption of CI/CD pipelines, software deployment was often a manual and time-consuming process that involved several stages. Here are some of the common steps involved in manual software deployment:
 
 •	Code development: Developers write code on their local machines, and then commit it to a shared code repository. They may use a version control system like Git to manage changes to the codebase.
@@ -48,7 +48,7 @@ Before the adoption of CI/CD pipelines, software deployment was often a manual a
 
 Manual software deployment can be a time-consuming and error-prone process. With CI/CD pipelines, these stages can be automated, resulting in faster, more reliable software delivery. 
 
-1.2	HOW A NEW SOLUTION CAN IMPROVE CERTAIN ISSUES
+## 1.2	HOW A NEW SOLUTION CAN IMPROVE CERTAIN ISSUES
 Implementing an AWS CI/CD pipeline can help to address several issues with traditional manual software deployment processes. By automating the build, test, and deployment stages of software development, CI/CD pipelines can help to reduce errors, increase collaboration, and speed up the delivery of new features and bug fixes to production.
 However, even with a CI/CD pipeline in place, there may still be some challenges that need to be addressed. Here are some examples of how a new solution could improve certain issues with the AWS CI/CD pipeline:
 
@@ -61,10 +61,11 @@ However, even with a CI/CD pipeline in place, there may still be some challenges
 In summary, while the AWS CI/CD pipeline offers many benefits, there may still be issues that need to be addressed. A new solution could be developed to address these issues and provide additional benefits to organizations using the AWS CI/CD pipeline.  
 CHAPTER 2
 
-METHODOLOGY
-2.1	PROPOSED SYSTEM
+# METHODOLOGY
+## 2.1	PROPOSED SYSTEM
 The proposed solution to improve the above-mentioned issues is to implement a CI/CD pipeline using AWS services. The methodology involves the following steps:
  
+
 Figure 2: High level architecture of proposed solution
 
 
@@ -81,7 +82,7 @@ The methodology involves the following steps:
 
 Deployment: In this phase, the team will deploy the CI/CD pipeline to the production environment. They will also monitor the pipeline and make any necessary adjustments to ensure that it is running optimally.
 
-Proposed Solution:
+## Proposed Solution:
 
 The proposed solution involves implementing a CI/CD pipeline using AWS services. The following AWS services can be used to automate the different stages of the pipeline:
 
@@ -95,7 +96,7 @@ The proposed solution involves implementing a CI/CD pipeline using AWS services.
 
 By using these AWS services, teams can create a complete CI/CD pipeline that automates the entire software delivery process, from code management to deployment. This will help teams to deliver software faster, with fewer errors, and with greater confidence. Additionally, the use of AWS services provides the added advantage of scalability, allowing teams to easily scale their infrastructure to meet the demands of their software delivery process.
 
-2.2	HARDWARE REQUIREMENTS
+## 2.2	HARDWARE REQUIREMENTS
     The hardware and software requirements to use a CI/CD pipeline on AWS will depend on the specific services being used and the size of the project. However, some general requirements can be outlined as follows:
 Hardware requirements:
 
@@ -103,7 +104,7 @@ Hardware requirements:
 •	Adequate storage space to store code and build artifacts
 •	Enough processing power and memory to run the necessary tools and services
 
-2.3	SOFTWARE REQUIREMENTS
+## 2.3	SOFTWARE REQUIREMENTS
  To effectively implement a CI/CD pipeline using AWS, there are several software requirements that need to be in place:
 1.	Operating System: The system should have an operating system that supports the tools and services being used. Commonly used operating systems include Windows, Linux, and macOS. The choice of operating system will depend on the specific requirements of the project.
 
@@ -125,7 +126,7 @@ It is important to note that specific software requirements will vary depending 
 
 
 
-2.4	ARCHITECTURE OF PROPOSED SOLUTION IN TESTING
+## 2.4	ARCHITECTURE OF PROPOSED SOLUTION IN TESTING
 
 CI/CD (Continuous Integration and Continuous Deployment) pipelines are software development practices that enable developers to build, test, and deploy code in a fast and efficient manner. The CI/CD pipeline automates the process of integrating modified code into the existing source code and deploying it to the production environment. The key components of a CI/CD pipeline include code version control, continuous build and testing, and continuous deployment.
 CI/CD pipelines provide several benefits, such as reduced deployment time, improved collaboration between developers, reduced risk of errors, and increased software quality. However, implementing a CI/CD pipeline can also present several challenges, such as security, scalability, and integration with existing systems. The evolution of CI/CD pipelines has been rapid, and the practice has become an essential component of modern software development. In the past, software deployments were manual and time-consuming processes, but with the advancement of technology and the introduction of new tools and practices, the process of software deployment has become much more streamlined.
@@ -151,7 +152,7 @@ The proposed solution architecture consists of the following components:
 The above architecture provides an end-to-end solution for the entire software delivery process, from code management to deployment, using AWS services. This solution provides automation and scalability, which helps organizations to speed up their software delivery process, reduce errors, and cut down on the time and effort needed to deploy software.
 
 
-2.5	TESTING PROPOSED SOLUTION
+## 2.5	TESTING PROPOSED SOLUTION
 Project Creation step by step:
 Step 1: Creating Pre-requisites [3, 13]:
 IAM Role Creations:
@@ -174,7 +175,7 @@ Policy Names:
 •	AWSCodeDeployRole
 •	AmazonEC2RoleforAWSCodeDeployLimitation
 
-Step 2: Now, it’s time to create An EC2 Instance & configure it:
+# Step 2: Now, it’s time to create An EC2 Instance & configure it:
  
 Figure 3: An EC2 Instance Created Successfully
 Step 3: Creating the Build Stage [4, 9]
@@ -222,7 +223,7 @@ d.	Server Monitoring: [10, 11]
 Figure 14: Monitoring using EC2 Graphical Logs
 CHAPTER 3
 
-RESULTS AND DISCUSSION
+# RESULTS AND DISCUSSION
 
 The proposed solution of implementing a CI/CD pipeline using AWS services has shown significant improvements in the software delivery process. The key benefits of using AWS for CI/CD include increased speed, reduced errors, improved collaboration, scalability, and enhanced security. The use of AWS services such as GitHub for code management, AWS CodeBuild for building and testing code, and AWS CodeDeploy for deployment has automated the process of software delivery, reducing the time and effort required for manual processes.
 
@@ -232,9 +233,9 @@ The scalability of the proposed solution has been a significant advantage, as or
 
 
 
-CHAPTER 4
+# CHAPTER 4
 
-CONCLUSION & FUTURE SCOPE
+# CONCLUSION & FUTURE SCOPE
 
 4.1	CONCLUSION
 In conclusion, implementing a complete CI/CD pipeline using AWS can provide significant benefits to organizations looking to streamline their software delivery processes. By automating the different stages of the pipeline using services such as GitHub, AWS CodeBuild, and AWS CodeDeploy, organizations can speed up cooperation, decrease the likelihood of errors, and cut down on the time and effort needed to deploy software.
@@ -244,7 +245,7 @@ The proposed solution for the implementation of the CI/CD pipeline using AWS is 
 Overall, the adoption of AWS for a CI/CD pipeline provides a range of benefits, including increased speed, reduced errors, improved collaboration, scalability, and enhanced security. Organizations of all sizes, from small startups to large enterprises, can benefit from the implementation of a complete CI/CD pipeline using AWS. However, it is important to carefully consider the hardware and software requirements, as well as the security measures that need to be implemented to ensure the safety of customer data.
 
 
-4.2	FUTURE SCOPE
+## 4.2	FUTURE SCOPE
 
 The proposed solution for implementing a CI/CD pipeline using AWS offers several opportunities for future development and expansion. Some of the potential future scopes are:
 
@@ -271,7 +272,8 @@ The proposed solution for implementing a CI/CD pipeline using AWS offers several
 •	Increased Automation: While the proposed solution is highly automated, there is always scope for further automation. Organizations can explore the use of artificial intelligence and machine learning technologies to further automate the pipeline, and to improve the accuracy and efficiency of the pipeline.
 
 •	Cloud-Native Solutions: Cloud-native solutions are becoming increasingly popular, and there is scope for organizations to explore the use of cloud-native solutions for their CI/CD pipeline. This will enable organizations to take full advantage of the benefits of cloud computing, such as scalability and flexibility.
-REFERENCES
+
+# REFERENCES
 
 1.	Overview of Deployment Options on AWS [Online] Available at: https://www.freecodecamp.org/news/what-is-ci-cd/
 2.	AWS Official Documentation [Online] Available at: https://docs.aws.amazon.com/index.html
