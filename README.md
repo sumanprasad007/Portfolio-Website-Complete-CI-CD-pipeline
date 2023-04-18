@@ -244,7 +244,6 @@ The proposed solution for the implementation of the CI/CD pipeline using AWS is 
 
 Overall, the adoption of AWS for a CI/CD pipeline provides a range of benefits, including increased speed, reduced errors, improved collaboration, scalability, and enhanced security. Organizations of all sizes, from small startups to large enterprises, can benefit from the implementation of a complete CI/CD pipeline using AWS. However, it is important to carefully consider the hardware and software requirements, as well as the security measures that need to be implemented to ensure the safety of customer data.
 
-
 ## 4.2	FUTURE SCOPE
 
 The proposed solution for implementing a CI/CD pipeline using AWS offers several opportunities for future development and expansion. Some of the potential future scopes are:
