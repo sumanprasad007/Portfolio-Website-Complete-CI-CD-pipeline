@@ -28,7 +28,7 @@ In this Report, we will examine the benefits of using AWS to create a complete C
 
 4.	AWS Services: The Report explores the various AWS services that can be used to automate the different stages of a CI/CD pipeline, such as GitHub for code management, AWS CodeBuild for building and testing code, and AWS CodeDeploy for deployment. The Report explains how each of these services can be used and how they integrate with each other to create a complete CI/CD pipeline.
 
-5.	Recommendations: The Report ends with a list of suggestions for businesses wishing to use Amazon to construct a full CI/CD pipeline. These suggestions include advice on best practises, such as how to choose the proper Amazon services, how to assure security, and how to grow the infrastructure to meet the requirements of the software delivery process.
+5.	Recommendations: The Report ends with a list of suggestions for businesses wishing to use Amazon to construct a full CI/CD pipeline. These suggestions include advice on best practices, such as how to choose the proper Amazon services, how to assure security, and how to grow the infrastructure to meet the requirements of the software delivery process.
 
 6.	Security: The Report also addresses the security aspect of using AWS for a CI/CD pipeline, highlighting the various measures implemented by AWS to ensure the safety of customer data. These measures include network security, data encryption, and access control.
 
