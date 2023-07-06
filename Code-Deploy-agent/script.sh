@@ -24,12 +24,12 @@ systemctl list-units --type=service | grep codedeploy
 
 sudo service codedeploy-agent status 
 
-Steps to get going 
+# Steps to get going 
 
-Vi install.sh 
+# Vi install.sh 
 
-Copy & paste the script  
+# Copy & paste the script  
 
-Run -> bash install.sh 
+# Run -> bash install.sh 
 
  
